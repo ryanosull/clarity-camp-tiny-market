@@ -1,13 +1,11 @@
 
-;; title: tiny-market
+;; title: sip009-nft
 ;; version:
 ;; summary:
 ;; description:
 
 ;; traits
 ;;
-
-;; (define-trait trait-name ((func-name (func-param-types) (response ok-type err-type))))
 
 ;; token definitions
 ;;
