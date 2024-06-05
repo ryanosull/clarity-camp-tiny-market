@@ -50,6 +50,16 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: sip009-nft
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/sip009-nft.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: sip010-token
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/sip010-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: tiny-market
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/tiny-market.clar
